@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars,FaTimes,FaGithub,FaLinkedin,} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Sekou from '../assets/Sekou.png';
+import Logo from '../assets/Logo.png';
 import { Link } from 'react-scroll';
 
 
@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <img src={Sekou} alt='Sekou' style={{width: '50px'}} />
+        <img src={Logo} alt='Sekou' style={{width: '50px'}} />
       </div>
 
       {/* menu */}
@@ -65,7 +65,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link onClick={handleClick}  to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>

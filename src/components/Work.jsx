@@ -2,6 +2,7 @@ import React from 'react';
 import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
 
+
 const Work = () => {
   return (
     <div id='works' name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
